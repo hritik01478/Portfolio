@@ -1,7 +1,15 @@
+import About from "./components/about/About";
 import Intro from "./components/intro/Intro";
+import ProductList from "./components/ProductList/ProductList";
+import Contact from "./components/contact/Contact";
 
 const App = () => {
-  return <div><Intro /></div>;
+  return <div>
+    <Intro />
+    <About />
+    <ProductList />
+    <Contact />
+  </div>;
 };
 
 export default App;

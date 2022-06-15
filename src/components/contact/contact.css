@@ -1,0 +1,24 @@
+.c {
+    height: 100vh;
+    position: relative;
+}
+
+.c-bg {
+    width: 20px;
+    background-color: #59b256;
+    height: 100%;
+    position: absolute;
+}
+
+.c-wrapper {
+    display: flex;
+    padding: 50px;
+}
+
+.c-left {
+    flex: 1;
+}
+
+.c-right {
+    flex: 1;
+}
