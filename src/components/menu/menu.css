@@ -1,0 +1,26 @@
+.m {
+    width: 300px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: -300px;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 1s ease;
+    background-color: #59b256;
+
+}
+
+.active {
+    left: 0;
+}
+
+@media screen and (max-width:480px) {
+    .m {
+        width: 150px;
+        /* left: -150px; */
+    }
+}

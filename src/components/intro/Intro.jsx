@@ -2,7 +2,7 @@ import './intro.css';
 import Me from '../../images/nobackintro1.png'
 const Intro = () => {
     return (
-        <div className="i">
+        <div className="i" id='intro'>
             <div className="i-left">
                 <div className="i-left-wrapper">
                     <h2 className="i-intro">Hey, Welcome to portfolio of</h2>

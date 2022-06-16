@@ -27,7 +27,7 @@ const Contact = () => {
     }
 
     return (
-        <div className="c">
+        <div className="c" id='contact'>
             <div className="c-bg"></div>
             <div className="c-wrapper">
                 <div className="c-left">
@@ -54,7 +54,6 @@ const Contact = () => {
                             <img src={Email} alt="" className="c-icon" />
                             hritikkumar01478@gmail.com
                         </div>
-
                         <div className="c-info-item">
                             <img src={Address} alt="" className="c-icon" />
                             Raj Labadhi Heritage, Ambapur, Koba approach road, Gandhinagar, Gujarat <br />
