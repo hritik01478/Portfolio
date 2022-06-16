@@ -6,6 +6,8 @@
     left: 10px;
     z-index: 999;
     cursor: pointer;
+    border-radius: 50%;
+    box-shadow: 1px 2px 2px rbga(0, 0, 0, 0.3);
 }
 
 .tb-icon {
