@@ -88,9 +88,36 @@
     position: absolute;
 }
 
-.i-scroll {
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    bottom: 20px;
+
+@media screen and (max-width:480px) {
+    .i {
+        flex-direction: column;
+    }
+
+    .i-left-wrapper {
+        padding: 15px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        height: 100%;
+    }
+
+    .i-title-intro {
+        font-size: 2rem;
+    }
+
+    .i-name {
+        font-size: 3rem;
+    }
+
+    .i-title-item {
+        justify-content: center;
+        font-size: 2rem;
+        /* text-align: center; */
+        /* align-items: center; */
+    }
+
+    .i-desc {
+        display: none;
+    }
 }

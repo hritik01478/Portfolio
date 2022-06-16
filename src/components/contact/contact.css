@@ -90,3 +90,42 @@ button {
     font-style: oblique;
     font-weight: 300;
 }
+
+
+@media screen and (max-width:480px) {
+    .c {
+        height: 100%;
+    }
+
+    .c-wrapper {
+        flex-direction: column;
+        padding: 0px 50px;
+    }
+
+    .c-title {
+        font-size: 2.6rem;
+    }
+
+    .c-desc {
+        display: none;
+    }
+
+    form {
+        margin-top: 0px;
+        display: flex;
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        /* margin-left: 0px; */
+    }
+
+    input {
+        width: 50%;
+        height: 40px;
+        margin: 10px;
+        margin-left: 0px;
+    }
+
+    button {
+        margin-top: 10px;
+    }
+}

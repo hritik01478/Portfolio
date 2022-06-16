@@ -49,9 +49,9 @@ const Contact = () => {
                         <b>What's your story? </b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, voluptatibus sunt ullam sit alias odit vero deleniti dolore autem distinctio.
                     </p>
                     <form ref={formRef} onSubmit={handleSubmit}>
-                        <input style={{ backgroundColor: darkMode && "#333" }} type="text" placeholder='Name' name='user_name' />
-                        <input style={{ backgroundColor: darkMode && "#333" }} type="text" placeholder='Subject' name='user_subject' />
-                        <input style={{ backgroundColor: darkMode && "#333" }} type="text" placeholder='Email' name='user_email' />
+                        <input style={{ backgroundColor: darkMode && "#333", borderBottom: darkMode && "1px solid grey" }} type="text" placeholder='Name' name='user_name' />
+                        <input style={{ backgroundColor: darkMode && "#333", borderBottom: darkMode && "1px solid grey" }} type="text" placeholder='Subject' name='user_subject' />
+                        <input style={{ backgroundColor: darkMode && "#333", borderBottom: darkMode && "1px solid grey" }} type="text" placeholder='Email' name='user_email' />
                         <textarea style={{ backgroundColor: darkMode && "#333" }} name="message" placeholder='Message' cols="30" rows="6"></textarea>
                         <button type='submit'>Submit</button>
                         {done && <div className='greet'>Thank You...</div>}
