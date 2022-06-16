@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Merienda&family=Rye&family=Ubuntu&display=swap');
+
+/* font-family: 'Merienda', cursive;
+font-family: 'Rye', cursive;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Aclonica', sans-serif; */
+
 .i {
     display: flex;
     height: 100vh;
@@ -22,15 +29,25 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    height: 55%;
 }
 
-.i-title-intro {
-    font-size: 30px;
+.i-intro {
+    font-size: 2rem;
     font-weight: 300;
+    font-family: 'Merienda', cursive;
 }
 
 .i-name {
-    font-size: 60px;
+    font-size: 4rem;
+    text-shadow: 1px 1px 1px #59b256;
+    font-family: 'Rye', cursive;
+    font-weight: normal;
+}
+
+.i-desc {
+    font-size: 1.4rem;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .i-title {
@@ -63,12 +80,13 @@
 
 .i-title-item {
     height: 50px;
-    font-size: 30px;
+    font-size: 2.3rem;
     font-weight: bold;
     color: #59b256;
     /* background-color: black; */
     display: flex;
     align-items: center;
+    font-family: 'Aclonica', sans-serif;
 }
 
 .i-bg {
@@ -102,7 +120,7 @@
         height: 100%;
     }
 
-    .i-title-intro {
+    .i-intro {
         font-size: 2rem;
     }
 

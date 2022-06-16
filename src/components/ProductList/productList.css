@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Merienda&family=Rye&family=Ubuntu&display=swap');
+
+/* font-family: 'Merienda', cursive;
+font-family: 'Rye', cursive;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Aclonica', sans-serif; */
+
 .pl {
     padding: 50px 100px;
     display: flex;
@@ -7,16 +14,19 @@
 }
 
 .pl-texts {
-    width: 65%;
+    width: 70%;
 }
 
 .pl-title {
-    font-size: 50px;
+    font-size: 3.2rem;
     font-weight: 600;
+    font-family: 'Aclonica', sans-serif;
 }
 
 .pl-desc {
     margin: 20px 0px;
+    font-size: 1.1rem;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .pl-list {

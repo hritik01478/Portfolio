@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Merienda&family=Rye&family=Ubuntu&display=swap');
+
+/* font-family: 'Merienda', cursive;
+font-family: 'Rye', cursive;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Aclonica', sans-serif; */
+
 .c {
     height: 100vh;
     position: relative;
@@ -12,24 +19,34 @@
 
 .c-wrapper {
     display: flex;
-    padding: 50px;
-    /* border: 2px solid red; */
+    padding: 10px 50px;
 }
 
 .c-left {
     flex: 1;
+    height: 95%;
+    /* border: 2px solid red; */
 }
 
 .c-title {
-    font-size: 60px;
+    font-size: 3.1rem;
+    font-family: 'Aclonica', sans-serif;
     width: 80%;
+}
+
+.c-info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    height: 100%;
 }
 
 .c-info-item {
     display: flex;
     align-items: center;
     /* flex-direction: column; */
-    margin: 50px 0;
+    /* border: 1px solid green; */
+    margin: 4% 0;
     font-weight: 300;
     width: 70%;
 }
@@ -38,6 +55,12 @@
     width: 30px;
     height: 30px;
     margin-right: 20px;
+    border-radius: 4px;
+}
+
+a {
+    text-decoration: none;
+
 }
 
 .c-right {
@@ -45,11 +68,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
+    /* border: 1px solid red; */
 }
 
-.p-desc {
+.c-desc {
     font-weight: 200;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 form {

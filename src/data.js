@@ -1,32 +1,37 @@
+import FoodOrderingWebsite from './images/foodOrderingwebsite.png';
+import HerbalWebsite from './images/HerbalWebsite.png'
+import ReactBlog from './images/reactBlog.png';
+import ChatApp from './images/ChatApp.png';
 export const products = [
     {
         id: 1,
-        img: "https://i.bb.co/4TD6cYF/1.jpg",
+        imgicon: FoodOrderingWebsite,
         link: "https://hritik01478.github.io/Food-Odering-website/"
     },
     {
         id: 2,
-        img: "https://www.google.co.in/imgres?imgurl=https%3A%2F%2Fwww.wellmark.com%2F-%2Fmedia%2Fsites%2Fblue-at-work%2Fhealthy-employees%2F768x512mainbwgrowthanddevelopmentd.png%3Fsc_lang%3Den&imgrefurl=https%3A%2F%2Fwww.wellmark.com%2Fblue-at-work%2Fhealthy-employees%2Fpersonal-growth-and-development&tbnid=KkEIPz8g2-DHvM&vet=12ahUKEwje3v3Rsa_4AhWw_zgGHe89Ay8QMygDegUIARDZAQ..i&docid=6SE8LT5GFQf_TM&w=768&h=512&q=development&hl=en&ved=2ahUKEwje3v3Rsa_4AhWw_zgGHe89Ay8QMygDegUIARDZAQ",
-        link: "https://hritik01478.github.io/Food-Odering-website/"
+        imgicon: ReactBlog,
+        link: "https://github.com/hritik01478/node-project"
     },
     {
         id: 3,
-        img: "https://www.google.co.in/imgres?imgurl=https%3A%2F%2Fwww.wellmark.com%2F-%2Fmedia%2Fsites%2Fblue-at-work%2Fhealthy-employees%2F768x512mainbwgrowthanddevelopmentd.png%3Fsc_lang%3Den&imgrefurl=https%3A%2F%2Fwww.wellmark.com%2Fblue-at-work%2Fhealthy-employees%2Fpersonal-growth-and-development&tbnid=KkEIPz8g2-DHvM&vet=12ahUKEwje3v3Rsa_4AhWw_zgGHe89Ay8QMygDegUIARDZAQ..i&docid=6SE8LT5GFQf_TM&w=768&h=512&q=development&hl=en&ved=2ahUKEwje3v3Rsa_4AhWw_zgGHe89Ay8QMygDegUIARDZAQ",
-        link: "https://hritik01478.github.io/Food-Odering-website/"
+        imgicon: ReactBlog,
+        link: "https://github.com/hritik01478/hritik-blog"
     },
+
     {
         id: 4,
-        img: "https://www.google.co.in/imgres?imgurl=https%3A%2F%2Fwww.wellmark.com%2F-%2Fmedia%2Fsites%2Fblue-at-work%2Fhealthy-employees%2F768x512mainbwgrowthanddevelopmentd.png%3Fsc_lang%3Den&imgrefurl=https%3A%2F%2Fwww.wellmark.com%2Fblue-at-work%2Fhealthy-employees%2Fpersonal-growth-and-development&tbnid=KkEIPz8g2-DHvM&vet=12ahUKEwje3v3Rsa_4AhWw_zgGHe89Ay8QMygDegUIARDZAQ..i&docid=6SE8LT5GFQf_TM&w=768&h=512&q=development&hl=en&ved=2ahUKEwje3v3Rsa_4AhWw_zgGHe89Ay8QMygDegUIARDZAQ",
-        link: "https://hritik01478.github.io/Food-Odering-website/"
+        imgicon: ChatApp,
+        link: "https://github.com/hritik01478/Chat-App"
     },
     {
         id: 5,
-        img: "https://www.google.co.in/imgres?imgurl=https%3A%2F%2Fwww.wellmark.com%2F-%2Fmedia%2Fsites%2Fblue-at-work%2Fhealthy-employees%2F768x512mainbwgrowthanddevelopmentd.png%3Fsc_lang%3Den&imgrefurl=https%3A%2F%2Fwww.wellmark.com%2Fblue-at-work%2Fhealthy-employees%2Fpersonal-growth-and-development&tbnid=KkEIPz8g2-DHvM&vet=12ahUKEwje3v3Rsa_4AhWw_zgGHe89Ay8QMygDegUIARDZAQ..i&docid=6SE8LT5GFQf_TM&w=768&h=512&q=development&hl=en&ved=2ahUKEwje3v3Rsa_4AhWw_zgGHe89Ay8QMygDegUIARDZAQ",
-        link: "https://hritik01478.github.io/Food-Odering-website/"
+        imgicon: HerbalWebsite,
+        link: "https://hritik01478.github.io/VivanLifesciences/"
     },
     {
         id: 6,
-        img: "https://www.google.co.in/imgres?imgurl=https%3A%2F%2Fwww.wellmark.com%2F-%2Fmedia%2Fsites%2Fblue-at-work%2Fhealthy-employees%2F768x512mainbwgrowthanddevelopmentd.png%3Fsc_lang%3Den&imgrefurl=https%3A%2F%2Fwww.wellmark.com%2Fblue-at-work%2Fhealthy-employees%2Fpersonal-growth-and-development&tbnid=KkEIPz8g2-DHvM&vet=12ahUKEwje3v3Rsa_4AhWw_zgGHe89Ay8QMygDegUIARDZAQ..i&docid=6SE8LT5GFQf_TM&w=768&h=512&q=development&hl=en&ved=2ahUKEwje3v3Rsa_4AhWw_zgGHe89Ay8QMygDegUIARDZAQ",
+        imgicon: FoodOrderingWebsite,
         link: "https://hritik01478.github.io/Food-Odering-website/"
     }
 ]

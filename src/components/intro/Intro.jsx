@@ -1,12 +1,12 @@
 import './intro.css';
-import Me from '../../images/Hritik.png'
+import Me from '../../images/nobackintro1.png'
 const Intro = () => {
     return (
         <div className="i">
             <div className="i-left">
                 <div className="i-left-wrapper">
-                    <h2 className="i-intro">Hello, My name is</h2>
-                    <h1 className="i-name">Hritik</h1>
+                    <h2 className="i-intro">Hey, Welcome to portfolio of</h2>
+                    <h1 className="i-name">Hritik Kumar</h1>
                     <div className="i-title">
                         <div className="i-title-wrapper">
                             <div className="i-title-item">Competitive Coder</div>
@@ -17,7 +17,7 @@ const Intro = () => {
                         </div>
                     </div>
                     <p className="i-desc">
-                        I am a Competitive Coder and Web Developer. I am a student and not working for any company or organisation.
+                        Undergraduate at <b>Indian Institute of Information Technology, Vadodara</b>
                     </p>
                 </div>
             </div>
