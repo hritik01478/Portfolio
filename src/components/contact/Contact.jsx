@@ -3,6 +3,7 @@ import Phone from '../../images/phone.png';
 import Email from '../../images/email.png';
 import Address from '../../images/address.png';
 import Linkedin from '../../images/linkedin.png';
+import Instagram from '../../images/instagram.png';
 import Github from '../../images/github.png';
 import { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
@@ -31,39 +32,49 @@ const Contact = () => {
             <div className="c-bg"></div>
             <div className="c-wrapper">
                 <div className="c-left">
-                    <h1 className='c-title'>Let's discuss your project</h1>
+                    <h1 className='c-title'>Let's discuss</h1>
                     <div className="c-info">
                         <div className="c-info-item">
-                            <img src={Phone} alt="" className="c-icon" />
-                            (+91) 7564970051
-                        </div>
-                        <a href="https://www.linkedin.com/in/hritik01478/">
-                            <div className="c-info-item">
-
-                                <img src={Linkedin} alt="" className="c-icon" />
-                                hritik01478
+                            <h2 className="c-info-title" style={{ borderBottom: darkMode && "1px solid white" }}>ADDRESS</h2>
+                            <div className="c-box">
+                                <img src={Address} alt="" className="c-icon" />
+                                Raj Labadhi Heritage,<br /> Ambapur, Koba approach road,<br /> Gandhinagar, Gujarat <br />
+                                Pin - 382421
                             </div>
-                        </a>
-                        <a href="https://github.com/hritik01478">
-                            <div className="c-info-item">
-                                <img src={Github} alt="" className="c-icon" />
-                                hritik01478
-                            </div>
-                        </a>
-                        <div className="c-info-item">
-                            <img src={Email} alt="" className="c-icon" />
-                            hritikkumar01478@gmail.com
                         </div>
                         <div className="c-info-item">
-                            <img src={Address} alt="" className="c-icon" />
-                            Raj Labadhi Heritage, Ambapur, Koba approach road, Gandhinagar, Gujarat <br />
-                            Pin - 382421
+                            <h2 className="c-info-title" style={{ borderBottom: darkMode && "1px solid white" }}>EMAIL</h2>
+                            <div className="c-box">
+                                <img src={Email} alt="" className="c-icon" />
+                                hritikkumar01478@gmail.com
+                            </div>
+                        </div>
+                        <div className="c-info-item">
+                            <h2 className="c-info-title" style={{ borderBottom: darkMode && "1px solid white" }}>PHONE</h2>
+                            <div className="c-box">
+                                <img src={Phone} alt="" className="c-icon" />
+                                (+91) 7564970051
+                            </div>
+                        </div>
+                        <div className="c-info-item" style={{ color: darkMode && "white" }}>
+                            <h2 className="c-info-title" style={{ borderBottom: darkMode && "1px solid white" }}>CONNECT</h2>
+                            <div className="c-box">
+                                <a href="https://github.com/hritik01478">
+                                    <img src={Github} alt="" className="c-icon" />
+                                </a>
+                                <a href="https://www.linkedin.com/in/hritik01478/">
+                                    <img src={Linkedin} alt="" className="c-icon" />
+                                </a>
+                                <a href="https://www.instagram.com/hritikkumar01478/">
+                                    <img src={Instagram} alt="" className="c-icon" />
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div className="c-right">
                     <p className="c-desc">
-                        <b style={{ fontfamily: 'Merienda' }}>What's your story? </b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, voluptatibus sunt ullam sit alias odit vero deleniti dolore autem distinctio.
+                        <b style={{ fontfamily: 'Merienda' }}>What's your story? </b>Want to talk about topic of intrest. Work on a new project. Contribute on existing project. Or just chit-chat.Feel free to connect with me.
                     </p>
                     <form ref={formRef} onSubmit={handleSubmit}>
                         <input style={{ backgroundColor: darkMode && "#333", borderBottom: darkMode && "1px solid grey" }} type="text" placeholder='Name' name='user_name' />

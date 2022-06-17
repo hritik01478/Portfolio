@@ -5,13 +5,13 @@ const Topbar = ({ openMenu, setOpenMenu }) => {
 
     const handleClick = () => {
         setOpenMenu(!openMenu);
-        const element = document.getElementById("menu");
-        if (openMenu === true) {
-            element.classList.add("active");
-        }
-        else {
-            element.classList.remove("active");
-        }
+        // const element = document.getElementById("menu");
+        // if (openMenu === true) {
+        //     element.classList.add("active");
+        // }
+        // else {
+        //     element.classList.remove("active");
+        // }
 
     }
 
