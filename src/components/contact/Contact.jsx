@@ -7,8 +7,8 @@ import Instagram from '../../images/instagram.png';
 import Github from '../../images/github.png';
 import { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
-import { useContext } from 'react'
-import { ThemeContext } from '../../context'
+import { useContext } from 'react';
+import { ThemeContext } from '../../context';
 
 const Contact = () => {
     const formRef = useRef();
