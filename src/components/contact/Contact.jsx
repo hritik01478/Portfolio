@@ -5,6 +5,8 @@ import Address from '../../images/address.png';
 import Linkedin from '../../images/linkedin.png';
 import Instagram from '../../images/instagram.png';
 import Github from '../../images/github.png';
+import Codeforces from '../../images/codeforces.png';
+import Codechef from '../../images/codechef.png'
 import { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import { useContext } from 'react';
@@ -64,6 +66,12 @@ const Contact = () => {
                                 </a>
                                 <a href="https://www.linkedin.com/in/hritik01478/">
                                     <img src={Linkedin} alt="" className="c-icon" />
+                                </a>
+                                <a href="https://codeforces.com/profile/hritik_01478">
+                                    <img src={Codeforces} alt="" className="c-icon" />
+                                </a>
+                                <a href="https://www.codechef.com/users/hritik_01478">
+                                    <img src={Codechef} alt="" className="c-icon" />
                                 </a>
                                 <a href="https://www.instagram.com/hritikkumar01478/">
                                     <img src={Instagram} alt="" className="c-icon" />

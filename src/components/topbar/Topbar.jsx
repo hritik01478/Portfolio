@@ -16,7 +16,7 @@ const Topbar = ({ openMenu, setOpenMenu }) => {
     }
 
     return (
-        <div className="tb" id='topbar'>
+        <div className="tb" id='topbar' >
             <img src={Hamburger} alt="" className="tb-icon" onClick={handleClick} />
         </div>
     );

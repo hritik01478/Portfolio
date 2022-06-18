@@ -1,9 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Merienda&family=Rye&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Merienda&family=Poppins:wght@500&family=Rubik+Moonrocks&family=Rye&family=Ubuntu&display=swap');
 
 /* font-family: 'Merienda', cursive;
 font-family: 'Rye', cursive;
 font-family: 'Ubuntu', sans-serif;
-font-family: 'Aclonica', sans-serif; */
+font-family: 'Poppins', sans-serif;
+font-family: 'Aclonica', sans-serif;
+font-family: 'Rubik Moonrocks', cursive; */
 
 .i {
     display: flex;
