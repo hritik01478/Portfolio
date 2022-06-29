@@ -8,13 +8,13 @@ font-family: 'Aclonica', sans-serif;
 font-family: 'Rubik Moonrocks', cursive; */
 
 .a {
-    height: 100vh;
+    height: 105vh;
     display: flex;
     align-items: center;
 }
 
 .a-left {
-    flex: 2;
+    flex: 3;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -53,7 +53,7 @@ font-family: 'Rubik Moonrocks', cursive; */
 .a-right {
     /* border: 2px solid red; */
     position: relative;
-    flex: 3;
+    flex: 5;
     height: 100%;
 }
 
